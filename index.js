@@ -1,3 +1,5 @@
+//Developed by: NTKPRO & LYNN_#6590
+
 const discord = require("discord.js");
 const client = new discord.Client()
 const { token, prefix, ServerID } = require("./config.json")
@@ -5,11 +7,8 @@ setTimeout
 client.on("ready", () => {
 console.log("I am ready to receive and Send Mails✔️")
 
-//Developed by: NTKPRO & LYNN_#6590
 
-
-//---> ค่าโปรไฟล์ บอทของท่าน
-client.user.setActivity("Test version Modmail 💗 ")
+client.user.setActivity("message me for help")
 })
 
 client.on("channelDelete", (channel) => {
